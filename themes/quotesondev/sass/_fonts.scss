@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+# Embedded Fonts
+--------------------------------------------------------------*/
+
+
+
+@font-face {
+    font-family: 'exolight';
+    src: url('../fonts/exo-light-webfont-webfont.woff2') format('woff2'),
+         url('../fonts/exo-light-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'exolightitalic';
+    src: url('../fonts/exo-lightitalic-webfont-webfont.woff2') format('woff2'),
+         url('../fonts/exo-lightitalic-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'exomedium';
+    src: url('../fonts/exo-medium-webfont-webfont.woff2') format('woff2'),
+         url('../fonts/exo-medium-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'exomediumitalic';
+    src: url('../fonts/exo-mediumitalic-webfont-webfont.woff2') format('woff2'),
+         url('../fonts/exo-mediumitalic-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

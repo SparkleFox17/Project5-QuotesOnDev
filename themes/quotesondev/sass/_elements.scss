@@ -1,0 +1,131 @@
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+
+html {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+*,
+*:before,
+*:after {
+  /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: inherit;
+}
+
+body {
+  background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+}
+
+blockquote,
+q {
+  quotes: '' '';
+
+  &:before,
+  &:after {
+    content: '';
+  }
+}
+
+hr {
+  background-color: $color__background-hr;
+  border: 0;
+  height: 1px;
+  margin-bottom: $base__space-unit;
+}
+
+ul,
+ol {
+  margin: 0 0 $base__space-unit ($base__space-unit * 2);
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+li > ul,
+li > ol {
+  margin-bottom: 0;
+  margin-left: $base__space-unit;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0 $base__space-unit $base__space-unit;
+}
+
+img {
+  height: auto; /* Make sure images are scaled correctly. */
+  max-width: 100%; /* Adhere to container width. */
+}
+
+table {
+  margin: 0 0 $base__space-unit;
+  width: 100%;
+}
+
+
+#logo{
+  width:1080px;
+  display:block;
+  position:Relative;
+  margin:0 auto;
+  text-align:center;
+}
+#get-another-quote-button{
+  border:2px solid $color__text-screen;
+  background:none;
+  color:$color__text-screen;
+  border-radius:0px;
+  font-family:$font__code;
+  box-shadow: none;
+  text-shadow: none;
+  margin: 0 auto;
+  position: relative;
+  width: 150px;
+  display: block;
+}
+#bottom-nav{
+  margin-top:60px;
+  width:635px;
+  float:right;
+  display:block;
+}
+.site-info{
+  float: left;
+    display: inline-block;
+    position: relative;
+}
+
+/*quotes*/
+.content-area{
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+.content-area:before {
+  left: -200px;
+  content: '\201c';
+}
+.content-area:after {
+  right: -200px;
+  content: '\201d';
+}
+
+.content-area:before, .content-area:after {
+  position: absolute;
+  top: 10px;
+  font-size: 350px;
+  color: $color__text-screen;
+  font-family: $font__code;
+  font-weight: bold;
+  line-height: 300px;
+}
