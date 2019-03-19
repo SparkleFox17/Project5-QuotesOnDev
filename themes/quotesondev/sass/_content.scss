@@ -31,3 +31,11 @@
 	clear: both;
 	margin: 0 0 $base__space-unit;
 }
+
+.category article:first-of-type, .tag article:first-of-type {
+    border-top: 1px dotted #fff;
+}
+.category article, .tag article {
+    padding: 20px 0;
+    border-bottom: 1px dotted #fff;
+}
