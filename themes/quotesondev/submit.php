@@ -33,11 +33,14 @@ get_header(); ?>
 			</div>
 
 			<div><br/>
-				<button type="submit">Submit Quote</button>
+				
+
 			</div>
 
 		</form>
+		<button type="submit" id="submit" >Submit Quote</button>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php get_footer(); ?>
+
